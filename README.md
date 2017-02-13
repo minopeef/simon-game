@@ -3,11 +3,13 @@
 >Simon Game is a simple game which goal is for user to repeat the pattern showed by the program. With each round a new step is added to the pattern making, the game much more difficult with every round. Additionally, the program should play a different sound for each field that is activated. On top Of that you have to enable user to switch between strict mode, which restarts a game whenever user selects wrong field in a pattern, and normal mode which only repeats the pattern subsequent of the wrong button being pressed. The provided example constituted of 4 different fields with different color for each field and I followed with the same idea.
 
 Watch short video about 
-How to play Simon Game](https://www.youtube.com/watch?v=1Yqj76Q4jJ4)
+[How to play Simon Game](https://www.youtube.com/watch?v=1Yqj76Q4jJ4)
 
-My html code is pretty plain. ```div``` and ```audio``` tags. My audio preloading before it needs to be executed.
+My html code is pretty plain. Many ```div``` and ```audio``` tags. Audio preloading before it needs to be executed.
 
-CSS a little bit trickier. I spent the whole evening on a layout of my game, trying to find right colors and shadows.  ```border-radius``` let me have round buttons and smooth corners. Also, I wildly used ```box-shadow``` to make buttons look more real. And remove ```box-shadow``` on START and STRICT buttons to imitate click. CSS3 have *animation* and *transition*.  But I think for this project it would be redundant  
+CSS a little bit trickier. I spent the whole evening on a layout of my game, trying to find right colors and shadows.  ```border-radius``` let me have round buttons and smooth corners. Also, I wildly used ```box-shadow``` to make buttons look more real. And remove ```box-shadow``` on START and STRICT buttons to imitate click. 
+
+CSS3 have *animation* and *transition*.  But I think for this project it would be redundant  
 
 ##HTML
 
