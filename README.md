@@ -7,10 +7,6 @@ Watch short video about
 
 My html code is pretty plain. Many ```div``` and ```audio``` tags. Audio preloading before it needs to be executed.
 
-CSS a little bit trickier. I spent the whole evening on a layout of my game, trying to find right colors and shadows.  ```border-radius``` let me have round buttons and smooth corners. Also, I wildly used ```box-shadow``` to make buttons look more real. And remove ```box-shadow``` on START and STRICT buttons to imitate click. 
-
-CSS3 have *animation* and *transition*.  But I think for this project it would be redundant  
-
 ##HTML
 
 ```html
@@ -55,6 +51,10 @@ CSS3 have *animation* and *transition*.  But I think for this project it would b
 
 ```
 ===
+
+CSS a little bit trickier. I spent the whole evening on a layout of my game, trying to find right colors and shadows.  ```border-radius``` let me have round buttons and smooth corners. Also, I wildly used ```box-shadow``` to make buttons look more real. And remove ```box-shadow``` on START and STRICT buttons to imitate click. 
+
+CSS3 have *animation* and *transition*.  But I think for this project it would be redundant.  
 
 ##CSS
 
@@ -231,7 +231,7 @@ h3 {
 Here is an example of *Functional JavaScript Programming*. I implemented *JavaScript Design Patterns* **Model-View-Controller (MVC)** for keeping particular pieces of code independent of other components. MVC have different names, but the same meaning. To provide loose coupling to support well-structured code. In this version of Simon game, I created Object constructor, some global variables, and functions. And added an event listener to my buttons. Thanks to Jquery. I like handy way manipulation with DOM, animation and others features. My code is pretty self-explanatory. So I won't describing in detail what it does. 
 
 ===
-Model
+###Model
 
 ```javasript
 function MakeButton(btn, cls) {
@@ -287,7 +287,7 @@ function randomGenerator() {
 }
 ```
 ===
-Controller or Octopus
+###Controller or Octopus
 
 ```javasript
 
@@ -361,7 +361,7 @@ function checkPlayerInput(id) {
 ```
 
 ====
-View
+###View
 
 ```javasript
 
@@ -382,4 +382,4 @@ $('div').on('click', function() {
 
 ```
 
- Global variables are a weak spot of JavaScript. It can be easily avoidable with *Immediately-Invoked-Function-Expressions (IIFE)* to allow for private scopes to protect variables and methods. I didn't do this. 
+Global variables are a weak spot of JavaScript. It can be easily avoidable with *Immediately-Invoked-Function-Expressions (IIFE)* to allow private scopes to protect variables and methods. I didn't do this. 
