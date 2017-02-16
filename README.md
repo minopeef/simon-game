@@ -390,7 +390,7 @@ Global variables are a weak spot of JavaScript. It can be easily avoidable with 
 
 ====
 
-I made the same logic with the implementation of OOP in javascript. I didn't use prototype, closures and other strong features of JS. only one global variable to hold all behavior of the game. Single object or namespace which has some properties and methods.
+I made the same logic with the implementation of OOP in javascript. I didn't use prototype, closures and other strong features of JS. Only one global variable to hold all behavior of the game. Single object or namespace which has some properties and methods.
 
 ```javascript
 
