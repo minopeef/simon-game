@@ -233,7 +233,8 @@ Here is an example of *Functional JavaScript Programming*. I implemented *JavaSc
 ===
 ###Model
 
-```javasript
+```javascript
+
 function MakeButton(btn, cls) {
   this.btn = btn; 
   this.cls = cls;
@@ -285,11 +286,12 @@ function randomGenerator() {
     randomSequence.push(Math.floor(Math.random() * 4));  
     playSequence();
 }
+
 ```
 ===
 ###Controller or Octopus
 
-```javasript
+```javascript
 
 function start() {
   game = game === false ? true : false;
@@ -358,12 +360,13 @@ function checkPlayerInput(id) {
   } 
 }
 
+
 ```
 
 ====
 ###View
 
-```javasript
+```javascript
 
 $('div').on('click', function() {
   
@@ -380,13 +383,14 @@ $('div').on('click', function() {
   }
 }); 
 
+
 ```
 
 Global variables are a weak spot of JavaScript. It can be easily avoidable with *Immediately-Invoked-Function-Expressions (IIFE)* to allow private scopes to protect variables and methods. I didn't do this.
 
 I made the same logic with the implementation of OOP in javascript. I didn't use prototype, closures and other strong features of JS. only one global variable to hold all behavior of the game. Single object or namespace which has some properties and methods.
 
-```javasript
+```javascript
 
 var SG = {
   btns: [{ color: ".green", active: "activeGreen" },
